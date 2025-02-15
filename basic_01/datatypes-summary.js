@@ -30,4 +30,7 @@ const myfunction=Function()
 }
 console.log(myfunction);
 
+//******************************************** /  
+//primitive(stakc) non-primitive(heap)
 
+// heap pass the reference and stack pass the copy
