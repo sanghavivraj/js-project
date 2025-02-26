@@ -8,7 +8,7 @@ console.log( typeof mysub);
 
 const jsUser={
     name:"vraj",
-    age:21,
+    age:21,     
     [mysub]:"keyy1",
     location: "gandhinagar",
     email: "sanghavi123f@gmail.com",
