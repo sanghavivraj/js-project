@@ -38,7 +38,18 @@ const course={
     courseInstructure: "youtube"
 
 }
+// console.log(tinderUser.hasOwnProperty('rollno'))
 
-const {courseInstructure}=course
-console.log(courseInstructure)
+
+const {courseInstructure,price}=course   // it's called the object destructuring which is very important when you use the values of object multipletimes.
+console.log(`this is the course instructor name :${courseInstructure} \nthis is the price : ${price}`)
+
+
+//API :- it's like a menu of the resuturent in which we can only order the food we have not thought about how to make and all of this suff.
+
+
+// {
+//     "name":"vraj",
+//     "rollno":2024120
+// }                          it is example of API
 
