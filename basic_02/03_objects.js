@@ -21,7 +21,14 @@ const jsUser={
 console.log( typeof jsUser.mysub);
 
 
-// there are also sum greeting and function wich is i am write in this file but there are reference for that in chai with code github
+
+
+jsUser.greeting = function() {
+    console.log("hello forom A");
+}
+
+
+console.log(jsUser.greeting);
 
 
 
